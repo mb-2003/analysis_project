@@ -57,8 +57,11 @@ A measure of error defined for two mz values:
 Mass errors must be less than `MME` for two mz values to be considered identical.
 ## First, Second Pass Averages
 
-When comparing many spectra across multiple timepoints, it is useful to consolidate spectra based on type and timepoint in order to reduce noisy and greatly increase program efficiency. 
+When comparing many spectra across multiple timepoints, it is useful to consolidate spectra based on type and timepoint in order to reduce noisy and greatly increase program efficiency. The diagram below represents an example of consolidation at a single timepoint where 6 spectra (blue) were used. When the first pass average is set to 2, the blue spectra are combined in pairs, resulting in the green spectra. Here, the seconnd pass average is set to 3, so the green spectra are combined into a single spectrum (orange).
+
+![Diagram](/averaging_diagram.png)
 
 ## Threshold
 
+When comparing the relative intensities across multiple timepoints and machine measurements, values within certain margins of each other are considered to be equal. 
 ##Spectra List
