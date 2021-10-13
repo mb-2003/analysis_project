@@ -76,4 +76,12 @@ When comparing many spectra across multiple timepoints, it is useful to consolid
 When comparing the relative intensities across multiple timepoints and machine measurements, values within certain margins of each other are considered to be equal. For two intensity values, if they differ by a factor less than the threshold, they are reported as being approximately equal in the peak comparison step. 
 
 
-##Spectra List
+## Spectra List
+
+A spectra list is the basic format for spectral data for most of the functions. The standard Python list consists at least on spectrum. Each spectrum is a list consisting of sublists of length 2. Except for those in the header, each of these two-member sublists contains the mz value at index 0 and the intensity at index 1. In the header, which is the first few sublists in a spectrum, any data may be present. Here is an example of a spectra list of 2 spectra with a header of size 3:
+
+`spectrum_one = [['Spectrum 1',''], ['Example',''], ['mz', 'intensity'], [56.3423, .2342], [58.3453, .5346], [66.2342, 2347]]`
+
+`spectrum_two = [['Spectrum 2',''], ['Example',''], ['mz', 'intensity'], [58.3892, .5788], [63.7894, .9974], [69.8741, 6837], [85.7643, .8888]]`
+
+`spectra_list = [spectrum_one, spectrum_two]`
