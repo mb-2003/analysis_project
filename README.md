@@ -85,3 +85,12 @@ A spectra list is the basic format for spectral data for most of the functions. 
 `spectrum_two = [['Spectrum 2',''], ['Example',''], ['mz', 'intensity'], [58.3892, .5788], [63.7894, .9974], [69.8741, 6837], [85.7643, .8888]]`
 
 `spectra_list = [spectrum_one, spectrum_two]`
+
+
+## Dependencies
+
+`pip install numpy`
+`pip install ortools`
+`pip install chemspipy`
+`pip install cirpy`
+`pip install pubchempy`
