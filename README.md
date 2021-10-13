@@ -26,7 +26,7 @@ Usage:
 `extract_peaks(input, header_size)`
 
 
-`input` is the spectra list containing at least one spectrum whose peaks need to be extracted. `header_size` refers to the row number of the input csv where the actual data begins. Returns a list consisting of the peaks in each spectrum inputted. The spectra list must be in the form of a list containing at least one spectrum, where each spectrum is a list of mz-intensity pairs.
+`input` is the spectra list containing at least one spectrum with peaks that need to be extracted. `header_size` refers to the row number of the input csv where the actual data begins. Returns a list consisting of the peaks in each spectrum inputted. The spectra list must be in the form of a list containing at least one spectrum, where each spectrum is a list of mz-intensity pairs.
 
 
 ## 3. Relative Intensity Conversion
