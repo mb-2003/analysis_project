@@ -89,8 +89,20 @@ A spectra list is the basic format for spectral data for most of the functions. 
 
 ## Dependencies
 
+NumPy, ortools, ChemSpiPy, CIRpy, and PubChemPy are all needed for full functionality. They can be installed using the following methods:
+
 `pip install numpy`
+
 `pip install ortools`
+
 `pip install chemspipy`
+
 `pip install cirpy`
+
 `pip install pubchempy`
+
+
+
+## An Example Script
+
+For an example of how to use all the main functions, see example.py
