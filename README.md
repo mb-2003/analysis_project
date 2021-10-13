@@ -50,9 +50,14 @@ From a list of mz values, naming will convert them to monoisotopic masses before
 These definitions are important to fully understand the usage scenarios.
 
 ## Max Mass Error (`MME`)
-A measure of error defined for two mz values as 
-![ye](https://latex.codecogs.com/png.image?\dpi{110}&space;\frac{|mz_1&space;-&space;mz_2|}&space;{mz_1})
+A measure of error defined for two mz values:
+
+![MME](https://latex.codecogs.com/png.image?\dpi{110}&space;\frac{|mz_1&space;-&space;mz_2|}&space;{mz_1})
+
+Mass errors must be less than `MME` for two mz values to be considered identical.
 ## First, Second Pass Averages
+
+When comparing many spectra across multiple timepoints, it is useful to consolidate spectra based on type and timepoint in order to reduce noisy and greatly increase program efficiency. 
 
 ## Threshold
 
