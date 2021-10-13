@@ -63,5 +63,7 @@ When comparing many spectra across multiple timepoints, it is useful to consolid
 
 ## Threshold
 
-When comparing the relative intensities across multiple timepoints and machine measurements, values within certain margins of each other are considered to be equal. 
+When comparing the relative intensities across multiple timepoints and machine measurements, values within certain margins of each other are considered to be equal. For two intensity values, if they differ by a factor less than the threshold, they are reported as being approximately equal in the peak comparison step. 
+
+
 ##Spectra List
