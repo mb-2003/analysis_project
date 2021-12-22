@@ -78,7 +78,7 @@ When comparing the relative intensities across multiple timepoints and machine m
 
 ## Spectra List
 
-A spectra list is the basic format for spectral data for most of the functions. The standard Python list consists at least on spectrum. Each spectrum is a list consisting of sublists of length 2. Except for those in the header, each of these two-member sublists contains the mz value at index 0 and the intensity at index 1. In the header, which is the first few sublists in a spectrum, any data may be present. Here is an example of a spectra list of 2 spectra with a header of size 3:
+A spectra list is the basic format for spectral data for most of the functions. The standard Python list consists of at least one spectrum. Each spectrum is a list consisting of sublists of length 2. Except for those in the header, each of these two-member sublists contains the mz value at index 0 and the intensity at index 1. In the header, which is the first few sublists in a spectrum, any data may be present. Here is an example of a spectra list of 2 spectra with a header of size 3:
 
 `spectrum_one = [['Spectrum 1',''], ['Example',''], ['mz', 'intensity'], [56.3423, .2342], [58.3453, .5346], [66.2342, 2347]]`
 
